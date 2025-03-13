@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     background: #f4f4f4;
 }
 
-/* Container principal */
 .container {
     display: flex;
     background: white;
@@ -82,7 +80,6 @@ body {
     background-color: #f39c12;
 }
 
-/* Estilos para a imagem */
 .image {
     flex: 1;
     background: url('perfil.jpg') center/cover;
@@ -91,7 +88,6 @@ body {
     border-radius: 0px;
 }
 
-/* Seção de informações acadêmicas e profissionais */
 .info-section {
     width: 900px;
     margin-top: 20px;
@@ -100,7 +96,6 @@ body {
     gap: 20px;
 }
 
-/* Estilo uniforme para todos os boxes */
 .info-box {
     background: linear-gradient(135deg, #f4f4f4, #d8d8ff);
     border-radius: 10px;
@@ -114,7 +109,6 @@ body {
     font-size: 18px;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
